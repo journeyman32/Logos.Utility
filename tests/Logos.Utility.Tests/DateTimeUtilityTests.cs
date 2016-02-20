@@ -1,6 +1,8 @@
 ﻿
 using System;
 using NUnit.Framework;
+using Logos.Utility;
+
 
 namespace Logos.Utility.Tests
 {
@@ -18,6 +20,13 @@ namespace Logos.Utility.Tests
 
 			DateTime dt2 = DateTimeUtility.ParseIso8601(iso);
 			Assert.That(dt2, Is.EqualTo(dt));
+		}
+
+		[Test]
+		public void GetTodayEpoc() 
+		{
+			
+			Assert.That (Logos.Utility.DateTimeUtility.ToEpocDate(DateTime.Today), Is.EqualTo("1454284800"));
 		}
 	}
 }

@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/Logos.Utility.Tests/DateTimeUtilityTests.cs">
+    <Files>
+      <File FileName="src/Logos.Utility/DateTimeUtility.cs" Line="35" Column="10" />
+      <File FileName="tests/Logos.Utility.Tests/DateTimeUtilityTests.cs" Line="27" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Logos.Utility" expanded="True">
+            <Node name="Logos.Utility.Tests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bryan/Documents/OneDrive/src/apple/Logos.Utility/src/Logos.Utility/DateTimeUtility.cs" line="41" column="23" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

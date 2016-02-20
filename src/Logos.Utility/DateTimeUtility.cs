@@ -33,8 +33,21 @@ namespace Logos.Utility
 		}
 
 		/// <summary>
+		/// Formats date as Epoc
+		/// </summary>
+		/// <returns>The epoc.</returns>
+		/// <param name="value">Value.</param>
+		public static string ToEpocDate(this DateTime value){
+			var start = new DateTime (1970, 1, 1);
+			var dayDiff = DateTime.Today - start;
+			var seconds = dayDiff.Days * 24 * 60 * 60;
+			return seconds.ToString ();
+		}
+
+		/// <summary>
 		/// The ISO 8601 format string.
 		/// </summary>
 		public const string Iso8601Format = "yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'";
+
 	}
 }
